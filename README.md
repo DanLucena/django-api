@@ -13,7 +13,6 @@ This is a simple API for managing insurance policies. It provides endpoints to *
 
 2. **Apply the database migrations:**
    ```sh
-   docker-compose run web python manage.py makemigrations
    docker-compose run web python manage.py migrate
    ```
 
